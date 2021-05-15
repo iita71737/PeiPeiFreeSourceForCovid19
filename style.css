@@ -1,0 +1,145 @@
+* {
+  text-align: center;
+  position: relative;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+html, body {
+  background: RGB(89, 177, 205);
+}
+
+.box {
+  border: 5px solid RGB(89, 177, 205);
+  width: 1000px;
+  height: 1410px;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+  top: 0px;
+  overflow: hidden;
+}
+.box .name, .box h1 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 900;
+  border: 0px solid #000;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  line-height: 0px;
+}
+.box h1 {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.row {
+  margin: auto;
+  width: 80%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+.row .text, .row .time {
+  display: inline-block;
+  color: RGB(89, 177, 205);
+  font-size: 22px;
+}
+.row .time {
+  width: 80px;
+  margin-left: 20px;
+  border: 0px solid #000;
+  border-bottom: 1px solid RGB(89, 177, 205);
+}
+
+.row1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.row2 .col {
+  display: block;
+  text-align: left;
+  margin: 20px;
+  margin-bottom: -10px;
+}
+.row2 .col .text, .row2 .col .nn {
+  display: inline;
+  font-size: 20px;
+  line-height: 50px;
+  color: RGB(89, 177, 205);
+}
+.row2 .col .nn {
+  border: 0px solid #000;
+  border-bottom: 1px solid RGB(89, 177, 205);
+  text-align: left;
+}
+.row2 .col .n1 {
+  width: 650px;
+}
+.row2 .col .n2 {
+  width: 470px;
+}
+.row2 .col .n3, .row2 .col .n4 {
+  width: 100%;
+}
+.row2 .col .n5 {
+  line-height: 35px;
+}
+.row2 .col .n6 {
+  margin-bottom: 30px;
+}
+.row2 .col .circle {
+  display: inline-block;
+  border: 3px solid RGB(89, 177, 205);
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  margin-top: 10px;
+}
+.row2 .col .circle .text {
+  bottom: -80px;
+}
+.row2 .col .circle .v {
+  position: absolute;
+  font-size: 50px;
+  width: 100%;
+  color: RGB(89, 177, 205);
+  visibility: hidden;
+}
+
+.row3 {
+  background: RGB(89, 177, 205);
+}
+.row3 p, .row3 span {
+  margin: 30px;
+  margin-top: -16px;
+  margin-right: 0;
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  text-indent: -1.1em;
+  text-align: justify;
+}
+.row3 span {
+  margin-right: 6px;
+  text-indent: 0;
+  text-align: left;
+}
+
+.QR {
+  position: absolute;
+  width: 80px;
+  bottom: 30px;
+  right: 110px;
+}
+.QR img {
+  width: 100%;
+}
+
+::placeholder {
+  color: #8FD5EC;
+}

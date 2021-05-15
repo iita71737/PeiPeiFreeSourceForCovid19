@@ -1,0 +1,18 @@
+n=0;
+y=0;
+$(".circle#no").click(function(){
+  n++;
+  $(".v#n").css("visibility","visible");
+  if(n==2){
+    $(".v#n").css("visibility","");
+    n=0;
+  }
+});
+$(".circle#yes").click(function(){
+  y++;
+  $(".v#y").css("visibility","visible");
+  if(y==2){
+    $(".v#y").css("visibility","");
+    y=0;
+  }
+});

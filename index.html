@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 防疫實聯制登記表</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="box">
+  <input class="name" placeholder="商店名稱"/>
+  <h1>防疫實聯制登記表</h1>
+  <div class="row row1">
+    <div class="text">日期：</div>
+    <input class="time" placeholder="年"/>
+    <div class="text">年</div>
+    <input class="time" placeholder="月"/>
+    <div class="text">月</div>
+    <input class="time" placeholder="日"/>
+    <div class="text">日</div>
+    <input class="time" placeholder="時"/>
+    <div class="text">時</div>
+  </div>
+  <div class="row row2">
+    <div class="col">
+      <div class="text">1. 姓名：</div>
+      <input class="nn n1" placeholder="輸入文字"/>
+    </div>
+    <div class="col">
+      <div class="text">2. 電話：</div>
+      <input class="nn n1" placeholder="輸入文字"/>
+    </div>
+    <div class="col">
+      <div class="text">3. 用餐人數（包含您本人）：</div>
+      <input class="nn n2" placeholder="輸入文字"/>
+    </div>
+    <div class="col">
+      <div class="text n5">4. 請問您是否有特殊事項紀錄須說明（例如：身體不適、家人及同住者為政府居家隔離對象）？：</div>
+    </div>
+    <div class="col colcircle">
+      <div class="circle" id="no">
+        <div class="v" id="n">✓</div>
+        <div class="text">無</div>
+      </div>
+      <div class="circle" id="yes">
+        <div class="v" id="y">✓</div>
+        <div class="text">有</div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="text">5. 欲使用場地（例：〇〇室、〇〇場、〇〇廳、〇〇桌...）：<br></div>
+      <input class="nn n3" placeholder="輸入文字"/>
+    </div>
+    <div class="col">
+      <div class="text">6. 備註（特殊事項紀錄說明）：</div>
+      <input class="nn n4 n6" placeholder="輸入文字"/>
+    </div>
+  </div>
+  <div class="row row3">
+    <p>1. 為維持國內疫情之穩定控制，本場所配合政府「COVID19（武漢肺炎）防疫新生活運動，採行實聯制措施。依據「個人資料保護法之特定目的及個人資料之類別代號 012 公共衛生或傳染病防治之特定目的，蒐集以上個人資料，且不得為目的外利用。所蒐集之資料僅保存 28 日，屆期銷毀。</p>
+    <p>2. 個人資料利用之對象及方式:為防堵疫情而有必要時，得提供衛生主管機關依傳染病防治法等規定進行疫情調查及聯繫使用。</p>
+    <p contenteditable="true">3. 當事人就其個人資料得依個人資料保護法規定，向 〇〇〇〇（資料蒐集機關）行使權利，包括查詢或請求閱覽、請求製給複製本、請求補充或更正、請求停止處理或利用、請求刪除等。</p>
+    <p>4. 當事人若無法配合本實聯制作業，將無法讓其入內用餐、消費，或請選擇外帶。</p>
+    <p>5. 本實聯制其他相關措施說明，請參閱衛生福利部網站 http://at.cdc.tw/8Q14hA。</p>
+  </div>
+  <div class="QR"><img src="https://i.imgur.com/UkOdoQP.png" alt=""/></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
